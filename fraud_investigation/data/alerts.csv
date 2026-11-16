@@ -1,0 +1,4 @@
+alert_id,customer_id,trigger_transaction_ids,alert_timestamp,alert_type,alert_severity,alert_description,status
+AML-001,C101,T101|T102,10-11-2026 14:30,Rapid Movement of Funds,High,Large incoming credit followed by rapid international transfer,Open
+AML-002,C102,T201,11-11-2026 10:15,Unusual High Value Transaction,Medium,High value international transaction flagged for review,Open
+AML-003,C103,T301|T302|T303,12-11-2026 16:45,Unusual Transaction Pattern,Medium,Large incoming credit from new counterparty followed by multiple transfers,Open

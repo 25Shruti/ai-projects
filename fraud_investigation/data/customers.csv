@@ -1,0 +1,4 @@
+customer_id,customer_name,customer_type,occupation,kyc_risk_rating,account_open_date
+C101,Aarav Mehta,Individual,Salaried Employee,Low,15-03-2021
+C102,Neha Enterprises,Business,Import Export Business,Medium,10-07-2019
+C103,Riya Shah,Individual,Independent Consultant,Medium,05-09-2022
