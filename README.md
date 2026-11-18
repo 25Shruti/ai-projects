@@ -437,6 +437,13 @@ If time permits, select **AML-002** (business international payment) or **AML-00
 
 > “This is an AI-assisted AML Investigation Copilot built for a synthetic enterprise banking scenario. A single Gemini agent dynamically calls controlled transaction-analysis and hybrid policy-retrieval tools. The analytics are deterministic, while policy retrieval combines BM25, ChromaDB and reciprocal-rank fusion. The agent generates an evidence-oriented advisory assessment and proposed action, which requires human approval before any simulated case action. We also implemented structured traces, OpenTelemetry instrumentation, golden-case tool and retrieval evaluations, persistent evaluation history, and an optional LLM judge for groundedness and decision quality.”
 
+
+## Pilot success metrics (proposed)
+
+For a controlled enterprise pilot, compare AI-assisted investigations against a human-only baseline using the same alert cohorts. Track **median investigation turnaround time**, **analyst handling time**, **percentage of cases requiring additional review**, **evidence completeness**, **policy citation accuracy**, **human override rate**, and **cost per completed investigation**. Segment results by alert type and risk level, and review false escalations and missed material risk indicators with qualified compliance specialists.
+
+These are **proposed pilot KPIs**, not measured outcomes of the synthetic MVP. Any deployment decision would require human-led validation, privacy/security review, and documented acceptance thresholds.
+
 ## Troubleshooting and known limitations
 
 | Symptom | Check |
